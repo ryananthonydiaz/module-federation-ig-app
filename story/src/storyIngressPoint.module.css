@@ -1,0 +1,32 @@
+.storyIngressPointContainer {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.storyIngressPointPicBorder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+}
+
+.storyIngressPointPic {
+  cursor: pointer;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  padding: 0.25rem;
+  background: white;
+  padding: 2px;
+}
+
+.storyIngressPointHandle {
+  font-size: 0.5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

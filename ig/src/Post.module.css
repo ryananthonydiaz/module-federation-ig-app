@@ -1,0 +1,66 @@
+.postProfilePic {
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+}
+
+.postTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postTop_author_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fontWeight500 {
+  font-weight: 500;
+}
+
+.fontWeight700 {
+  font-weight: 700;
+}
+
+.maxWidth100 {
+  max-width: 100%;
+}
+
+.postActionsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0.5rem 0 0 0;
+}
+
+.lowerProfilePicContainer {
+  display: flex;
+  align-items: center;
+}
+
+.lowerProfilePic {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+}
+
+.handleCommentText {
+  font-size: 0.75rem;
+}
+
+.postCaptionContainer {
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+.allCommentsText {
+  font-size: 0.75rem;
+  color: rgb(142, 142, 142);
+  font-weight: 500;
+}
