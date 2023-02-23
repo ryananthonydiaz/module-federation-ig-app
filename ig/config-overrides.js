@@ -16,8 +16,8 @@ module.exports = function override(config) {
                 // We add ourselves as a remote because we want the 'host' and 'story'
                 // applications to look at the same instance of the story-store module
                 // and importing both through the remote ensures that we will.
-                host: 'host@http://localhost3000/remoteEntry.js', 
-                story: 'story@http://localhost:3001/remoteEntry.js',
+                host: process.env.REACT_APP_HOST_URL, 
+                story: process.env.REACT_APP_STORY_URL,
             },
             exposes: {
                 './story-store': './src/hooks/createStoryStore'
