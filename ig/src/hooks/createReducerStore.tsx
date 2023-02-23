@@ -18,7 +18,6 @@ export function createReducerStore<
   const StateContext = createContext<ReducerState<_Reducer>>(initialState);
   const DispatchContext = createContext<DispatchType>(() => {});
 
-  // In reference to the 'any'... I'm sorry baby jesus...
   const Provider: React.FC<{ children: any }> = ({ children }) => {
     const [state, dispatch] = useReducer<_Reducer>(reducer, initialState);
 
