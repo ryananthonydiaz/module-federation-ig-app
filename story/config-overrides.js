@@ -13,7 +13,7 @@ module.exports = function override(config) {
             name: 'story',
             filename: 'remoteEntry.js',
             remotes: {
-                host: REACT_APP_HOST_URL,
+                host: process.env.REACT_APP_HOST_URL,
             },
             exposes: {
                 './StoryCarousel': './src/StoryCarousel'
